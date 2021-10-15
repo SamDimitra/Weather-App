@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WeatherApp</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@1,500&display=swap" rel="stylesheet">  
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="#">
+        
+    </head>
+    <body>
+
+        <div id="displayDate" class="date"></div>
+        <h3 id="title">Weather App</h3>
+
+        <div class="container">
+            <div class="search">
+                <form id="searchform">
+                    <input type="text" class="search-bar" id="inputValue" placeholder="Search for a city">
+
+                </form>
+            </div>
+
+            <div class="weather">
+                <h2 class="city" id="city"></h2>
+                <h1 class="temp" id="temp"> </h1>
+                <div class="flex">
+                <img src="" alt="" class="icon" id="icon">
+            </div>
+                <div class="description" id="description"></div>
+                <div class="humidity" id="humidity"></div>
+                <div class="wind" id="wind"></div>
+                <div class="sunrise" id="sunrise"></div>
+                <div class="sunset" id="sunset"></div>
+    
+                </div>
+    
+
+        </div>
+        
+        
+
+       
+       
+       <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+       crossorigin="anonymous"></script>
+      <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="weatherapp.js" charset="utf-8"></script>
+
+        
+    </body>
+</html>

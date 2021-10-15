@@ -1,0 +1,77 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    background-color:darkcyan;
+    background-image: url('https://source.unsplash.com/XF-ZLS5G0QU/1600x900');
+    font-family: 'Andada Pro', serif;
+}
+
+#title{
+    position: absolute;
+    display: flex;
+    align-self: flex-start;
+    justify-content: center;
+    top: 40px;
+    font-size: 50px;
+    color: azure;
+}
+
+.container {
+    background-color: rgba(26, 78, 94, 0.6);
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+}
+
+.date{
+    position: absolute;
+    left: 60px;
+    top: 40px;
+    font-size: 20px;
+    color: azure;
+}
+
+h1.temp{
+    margin: 0;
+}
+
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+#searchform{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    
+
+}
+
+input.search-bar{
+    background-color: rgb(130, 210, 235);
+    padding: 10px;
+    border-radius: 15px;
+    font-family: inherit;
+    font-size: 130%;
+    width: 100%;
+    
+
+}
+
+@media screen and (max-width:300px){
+    #title{
+        font-size: 30px;
+
+    }
+
+    .date{
+        font-size: 10px;
+    }
+}
